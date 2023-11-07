@@ -2,9 +2,16 @@
 name = "kvtree"
 version = "0.1.0"
 edition = "2021"
+authors = ["Alois Masanell <massou@cantina.space>"]
+description = "Heterogenous in memory key value tree storage"
+keywords = ["key-value", "in-memory", "container", "tree"]
 readme = "readme.md"
 include = ["Cargo.toml", "readme.md", "license", "src/**"]
 license = "BSD-3-Clause"
+categories = ["rust-patterns", "data-structures"]
+homepage = "https://github.com/cantina-space/kvtree"
+documentation = "https://docs.rs/kvtree"
+repository = "https://github.com/cantina-space/kvtree"
 
 [features]
 default = ["rayon", "core-storage"]
